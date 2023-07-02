@@ -26,7 +26,7 @@ padding: 0;
     width: 100%;
    font-size: 45px;
      align-self: center;
-     border: 2px solid salmon;
+     border: 2px solid #ff8c00;
      background-color: azure;
      height: 60px;
      padding:auto;
@@ -54,6 +54,25 @@ button{
   text-align: center;
   font-weight: 300;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.operation{
+    background-color: #ffdab9;
+}
+.operation:hover{
+    background-color: #ffbf00;
+ 
+}
+ .equal{
+    background-color:#7fff00 ;
+}
+.equal:hover{
+    background-color: black;
 }
 
 @media only screen and (max-width:768px) {
